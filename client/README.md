@@ -1,13 +1,17 @@
 # Frontend
 
-The frontend is built with Vite and TypeScript. To run for the first time, run:
+## Set Up
+
+First of all ensure you have Node and Npm. To double check this, just run the commands `node -v` and `npm -v`. If not present, ensure you install them before moving onto the next steps.
+
+The frontend development environment was configured with Vite and the frontend itself is React with TypeScript. Cd into the Frontend folder and then run the following commands:
 
 ``` shell
 npm install
 npm run dev
 ```
 
-From then on `npm run dev` will run the server for the frontend.
+Once the npm packages are installed, `npm run dev` should be sufficient to run the application.
 
 The frontend is also integrated with Storybook which is designed to allow us to separately visualize and observe each component that we build.
 
