@@ -10,6 +10,8 @@ The frontend is built in TypeScript and makes use of REACT for the frontend. The
 
 ## Contribution Guidelines
 
+To contribute, ensure you're following the style guides linked below. These style guides are important in ensuring unity throughout the project and making sure the entire project is uniform throughout.
+
 JavaScript Style Guide
 
 - https://github.com/airbnb/javascript#amendments
@@ -21,3 +23,5 @@ React Style Guide
 TypeScript Style Guide
 
 - https://basarat.gitbook.io/typescript/
+
+To contribute onto the github, you must make your own branch (ensure this named appropriately) and then create a merge request and add reviewers. Reviewers must approve prior to merging.
