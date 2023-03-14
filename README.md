@@ -25,3 +25,7 @@ TypeScript Style Guide
 - https://basarat.gitbook.io/typescript/
 
 To contribute onto the github, you must make your own branch (ensure this named appropriately) and then create a merge request and add reviewers. Reviewers must approve prior to merging.
+
+When contributing to the frontend, ensure you meet the storybook standards as well and all stories are incorporated into Storbyook. For more information, go to:
+
+- https://storybook.js.org/docs/react/writing-stories/introduction
