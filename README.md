@@ -1,8 +1,18 @@
-# Team-Management
+# Team-Management Software
+
+## Project Requirements
+
+This currently runs using Node V16. The best way to manage your Node version is through nvm-windows (for windows users) or nvm (for Linux or MacOS).
+
+You simply need to run the commands:
+```
+nvm install 16 --lts
+nvm use 16
+```
 
 ## Backend
 
-The backend is made in TypeScript, Node.js, Express and currently utilizes a MongoDB database. 
+The backend is made in TypeScript, Node.js, and Express. 
 
 ## Frontend
 
