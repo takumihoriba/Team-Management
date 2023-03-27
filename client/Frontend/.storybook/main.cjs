@@ -24,7 +24,7 @@ module.exports = {
       resolve: (await import('../vite.config.js')).default.resolve,
       // Add dependencies to pre-optimization
       optimizeDeps: {
-        include: ['storybook-dark-mode'],
+        include: [],
       },
     });
   },
