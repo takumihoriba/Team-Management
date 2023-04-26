@@ -2,9 +2,7 @@
 
 ## UI/UX
 
-The UI is currently being designed in Figma. The link to it is below:
-
-https://www.figma.com/file/MiQaLq0pGMibscLvJuKcbt/Untitled?node-id=0%3A1&t=zEjuITm3gNXssVTo-1
+The UI is currently being designed in Figma.
 
 ## Set Up
 
