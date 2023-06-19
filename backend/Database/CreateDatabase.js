@@ -1,5 +1,6 @@
 const mysql = require('mysql2');
 const readline = require('readline');
+require('dotenv').config();
 
 // Create a readline interface to read user input
 const rl = readline.createInterface({
@@ -15,9 +16,9 @@ rl.question('Enter the database name: ', (dbName) => {
     // Create a MySQL connection
     const connection = mysql.createConnection({
       host: 'localhost',
-      user: 'jtstripes95',    // Enter your MySQL username
-      password: 'mintuser',    // Enter your MySQL password
-      port: 3306,   // Port number for MySQL
+      user: process.env.USER,    // Enter your MySQL username
+      password: process.env.PASSWD,    // Enter your MySQL password
+      port: process.env.PORT,   // Port number for MySQL
     });
 
     // Connect to the MySQL server
