@@ -10,7 +10,6 @@ interface User {
 }
 
 // for now this stores data of users and their passwords.
-// in future hashing passwords for security may be better.
 const users: User[] = [
   { username: 'admin', password: 'password' },
   { username: 'user', password: '123456' }

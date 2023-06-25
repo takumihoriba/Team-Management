@@ -31,6 +31,13 @@ export function checkSpecial(pass: string, special: boolean) {
 }
 
 export function validatePassword(pass: string, minLength: number, lower: boolean, upper: boolean, digit: boolean, special: boolean): boolean{
-    return checkMinLength(pass, minLength) && checkLower(pass, lower) && checkUpper(pass, upper)
+    const valid = checkMinLength(pass, minLength) && checkLower(pass, lower) && checkUpper(pass, upper)
             && checkDigit(pass, digit) && checkSpecial(pass, special);
+    if (valid) {
+        // store 'pass' into database
+        return true;
+    } else {
+        // doesn't store
+        return false;
+    }
 }
